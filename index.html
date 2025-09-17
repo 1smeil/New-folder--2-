@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>  GitHub Actions</title>
+    <title>صفحة اختبار GitHub Actions</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -80,11 +80,12 @@
         <div class="info">
             <strong>معلومات المشروع:</strong><br>
              GitHub Actions<br>
-               <span id="currentDate"></span>
+              في: <span id="currentDate"></span>
+
         </div>
         
         <div class="timestamp">
-            آخر تحديث: <span id="timestamp"></span>
+            آخر : <span id="timestamp"></span>
         </div>
     </div>
 
@@ -92,8 +93,8 @@
         // عرض التاريخ والوقت الحالي
         const now = new Date();
         const dateOptions = { 
-            year: 'numeric' 
-            month: 'long'
+            year: 'numeric', 
+            month: 'long', 
             day: 'numeric' 
         };
         const timeOptions = { 
