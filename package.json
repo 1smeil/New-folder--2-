@@ -1,0 +1,31 @@
+{
+  "name": "github-actions-test",
+  "version": "1.0.0",
+  "description": "مشروع بسيط لاختبار GitHub Actions",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "test": "echo 'اختبار بسيط' && exit 0",
+    "build": "echo 'لا يوجد بناء مطلوب'",
+    "serve": "npx http-server -p 8080"
+  },
+  "keywords": [
+    "github-actions",
+    "test",
+    "html",
+    "ci-cd"
+  ],
+  "author": "مطور GitHub Actions",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/github-actions-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/username/github-actions-test/issues"
+  },
+  "homepage": "https://username.github.io/github-actions-test/"
+}
